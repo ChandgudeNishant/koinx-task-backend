@@ -31,7 +31,7 @@ app.use(express.json());
 
 // Default route
 app.get("/", (req, res) => {
-  res.send(`<h1>Backend is Running and this is '/' Route</h1>`);
+  res.send(`<h1>It's Nishant, The KoniX app is running!</h1>`);
 });
 
 // Define routes
